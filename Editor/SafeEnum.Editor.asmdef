@@ -1,0 +1,15 @@
+{
+    "name": "SafeEnum.Editor",
+    "references": [
+        "GUID:95d533e6b4b43974589864e7a5ef1901"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
