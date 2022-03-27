@@ -33,7 +33,9 @@ namespace SafeEnum
 				}
 				else
 				{
-					Debug.LogError($"Deserialization failed: \"{typeof(T).FullName}\" enum has neither \"{_stringValue}\" value, nor \"{index}\" index");
+					Debug.LogError($"Deserialization failed: \"{typeof(T).FullName}\" enum has neither \"{_stringValue}\" value, nor \"{index}\" index. Using default value \"{default(T)}\"");
+					_enumValue = default;
+					_stringValue = _enumValue.ToString();
 				}
 			}
 		}
